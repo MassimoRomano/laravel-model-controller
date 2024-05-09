@@ -1,5 +1,10 @@
 @import '~bootstrap/scss/bootstrap';
 
+main{
+    min-height: 100vh;
+    background-color: #212529;
+}
+
 .jumbo-img {
     background-image: url('../img/movie-jumbo.jpg');
     background-size: cover;
