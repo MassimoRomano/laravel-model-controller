@@ -16,15 +16,16 @@
             <div class="row">
                 @foreach ($movies as $movie)
                     <div class="col-3 mb-3">
-                        <div class="card">
+                        <div class="card bg-dark border-danger">
+                            <img style="height: 400px" src="{{$movie->poster}}" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <div class="card-title">
+                                <div class="card-title text-light">
                                     <h4 class="card-title">{{ $movie->title }}</h4>
-                                    <h6 class="card-subtitle text-muted">{{ $movie->original_title }}</h6>
+                                    <h6 class="card-subtitle text-light">{{ $movie->original_title }}</h6>
                                 </div>
-                                <p class="card-text">{{ $movie->nationality }}</p>
-                                <p class="card-text">{{ $movie->date }}</p>
-                                <p class="card-text">{{ $movie->vote }}</p>
+                                <p class="card-text text-danger">{{ $movie->nationality }}</p>
+                                <p class="card-text text-light">{{ $movie->date }}</p>
+                                <p class="card-text text-warning">Vote: {{ $movie->vote }}</p>
                             </div>
                         </div>
                     </div>
