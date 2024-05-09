@@ -11,7 +11,7 @@ class PageController extends Controller
     public function index()
     {
 
-        $movies = Movie::orderByDesc('id')->get();
+        $movies = Movie::all();
 
         return view('guests.welcome', compact('movies'));
     }
