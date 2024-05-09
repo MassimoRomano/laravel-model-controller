@@ -1,25 +1,16 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="row align-items-md-stretch">
-        <div class="h-100 p-5 text-white bg-dark text-center">
-            <h2 class="text-danger">WELCOME TO MOVIES LIST</h2>
-            <p class="py-4">
-                Swap the background-color utility and add a `.text-*` color
-                utility to mix up the jumbotron look. Then, mix and match with
-                additional component themes and more.
-            </p>
-            <div class="d-flex justify-content-center gap-4">
-                <button class="btn btn-outline-success" type="button">
-                    Register
-                </button>
-                <button class="btn btn-outline-primary" type="button">
-                    Sign In
-                </button>
+    <div class="jumbo-img">
+        <div class="jumbo-top">
+            <div class="d-flex flex-column text-center px-5">
+                <h1 class="text-jumbo text-bold text-uppercase py-4">Welcome to Movies</h1>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla nesciunt illum excepturi ipsum dicta est mollitia, vitae tempora saepe laboriosam ratione sit magni dolorem libero aliquam eligendi delectus magnam.
+                Rerum, iste eius, sint culpa harum neque reprehenderit officiis dignissimos vitae corrupti totam eaque, dolore maxime eligendi doloribus autem! Blanditiis fugit eos earum repudiandae nobis rem consequuntur asperiores, animi non.
+                Illo modi laudantium totam qui quae. Voluptas, iure! Fuga a dolores blanditiis, debitis tempore laboriosam qui hic facere esse suscipit. Amet error tempore ipsum voluptate quas sapiente expedita nulla quam!</p>
             </div>
         </div>
     </div>
-
     <section class="bg-dark">
         <div class="container py-5">
             <div class="row">
